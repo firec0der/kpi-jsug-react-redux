@@ -1,0 +1,5 @@
+export const CONTENT_TYPES = {
+  PLAIN_HTML: "PLAIN_HTML",
+  IMAGE: "IMAGE",
+  CODE: "CODE"
+};
