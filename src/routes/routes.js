@@ -9,7 +9,7 @@ import {
 
 import { Slider } from '../containers';
 
-export const productionBaseUrl = '/jsug/share/1-react/1-ivan-stetsenko-react-redux/';
+export const productionBaseUrl = '/jsug/share/1-meetup/1-ivan-stetsenko-react-redux/';
 export const devBaseUrl = '/';
 const env = process.env.NODE_ENV;
 
