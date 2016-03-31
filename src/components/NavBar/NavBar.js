@@ -2,6 +2,7 @@
 import React from 'react';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import { IndexLinkContainer, LinkContainer } from 'react-router-bootstrap';
+import { url } from '../../utils/urls';
 
 export default class NavBar extends React.Component {
 
@@ -9,10 +10,10 @@ export default class NavBar extends React.Component {
     return (
       <Navbar>
         <Nav>
-          <IndexLinkContainer to="/" activeClassName="active">
+          <IndexLinkContainer to={url('/')} activeClassName="active">
             <NavItem>Home</NavItem>
           </IndexLinkContainer>
-          <LinkContainer to="/slides" activeClassName="active">
+          <LinkContainer to={url('/slides')} activeClassName="active">
             <NavItem>Slides</NavItem>
           </LinkContainer>
         </Nav>
