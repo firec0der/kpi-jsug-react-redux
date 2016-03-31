@@ -109,10 +109,15 @@ class List extends React.Component {
     someCondition: React.PropTypes.bool
   }
 
-  contructor() {
+  contructor(props) {
+    super(props);
     this.state = {
-      opened: someCondition
+      opened: false
     }
+  }
+
+  componentWillReceiveProps(nextProps) {
+    if (nextProps.someCondition) { this.setState({opened: true}); }
   }
 
   render() {

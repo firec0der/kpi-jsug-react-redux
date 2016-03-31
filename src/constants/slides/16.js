@@ -51,7 +51,7 @@ const sliderReducer = (state = initState, action) => {
   switch (action.type) {
     case 'NEXT_SLIDE':
       return {
-        currentSlide: ++state.currentSlide,
+        currentSlide: state.currentSlide + 1,
         currentSection: 0
       }
     default:
