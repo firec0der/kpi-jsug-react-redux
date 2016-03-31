@@ -1,6 +1,8 @@
-This is the small app that was developed during one night.
+This is a small app that was developed in one night.
 
-The app was developed for short lecture about React and Redux (The meetup was there -> [click me](http://dou.ua/calendar/10102/) (Russian, Ukrainian)). Actually, it's my slides and examples of code.
+Hosted [here](http://itkpi.github.io/jsug/share/1-react/1-ivan-stetsenko-react-redux/).
+
+The app was developed for a short lecture about React and Redux (The meetup was here -> [click me](http://dou.ua/calendar/10102/) (Russian, Ukrainian)). Actually, these are my slides and examples of code.
 
 As always, `clone`, `npm i`, `npm start` `¯\_(ツ)_/¯`
 
